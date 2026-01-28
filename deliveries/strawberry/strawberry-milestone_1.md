@@ -19,10 +19,17 @@ We declare that:
 - [x] we used **a clear and permissive open-source license**.
 - [x] we submitted **a clear Git history and public, credibly timestamped commits**.
 - [x] we used third party libraries for:
-  - Bandersnatch, Rust FFI of [github.com/davxy/ark-ec-vrfs](https://github.com/davxy/ark-ec-vrfs)
-  - Ed25519 [golang.org/x/crypto](https://pkg.go.dev/golang.org/x/crypto)
-  - In memory db [github.com/cockroachdb/pebble](https://github.com/cockroachdb/pebble)
-  - FFI [github.com/ebitengine/purego](https://github.com/ebitengine/purego)
+  - Bandersnatch, Rust FFI of [https://github.com/davxy/ark-vrf](https://github.com/davxy/ark-vrf)
+  - Ed25519 / crypto [https://golang.org/x/crypto](https://pkg.go.dev/golang.org/x/crypto)
+  - In memory db [https://github.com/cockroachdb/pebble](https://github.com/cockroachdb/pebble)
+  - FFI [https://github.com/ebitengine/purego](https://github.com/ebitengine/purego)
+  - Erasure coding, Rust FFI of [https://github.com/AndersTrier/reed-solomon-simd](https://github.com/AndersTrier/reed-solomon-simd)
+  - zip215 compliant ed25519 [https://github.com/hdevalence/ed25519consensus](https://github.com/hdevalence/ed25519consensus)
+  - Go-difflib for tests [https://github.com/pmezard/go-difflib](https://github.com/pmezard/go-difflib)
+  - Quic-Go [https://github.com/quic-go/quic-go](https://github.com/quic-go/quic-go)
+  - Logging library [https://github.com/rs/zerolog](https://github.com/rs/zerolog)
+  - Testing verifications [https://github.com/stretchr/testify](https://github.com/stretchr/testify)
+  - Go concurrency [https://golang.org/x/sync](https://golang.org/x/sync)
 - [ ] we provided **Gas, trie/DB, signature-verification, and availability (EC/DB) performance tests** to be run on standard hardware.
   - Not relevant in this milestone
 - [x] we viewed the following **JAM implementation code** before | during our implementation: 
