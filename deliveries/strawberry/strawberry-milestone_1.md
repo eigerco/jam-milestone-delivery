@@ -59,11 +59,11 @@ Our repository is public and fully available for tracking our progress.
 
 
 
-| Number	| Deliverable	 | Link	                               | Notes                      |
-|---------|------------|-------------------------------------|----------------------------|
-|1.	| source     | https://github.com/eigerco/strawberry | submission tag `v0.0.5-ct` |
-|2.	| release	   | https://github.com/eigerco/strawberry/releases/tag/v0.0.5-ct	 |                            |
-|3.	| executable | https://github.com/eigerco/strawberry/releases/download/v0.0.5-ct/strawberry-linux-x86_64|                            |
+| Number	| Deliverable	 | Link	                                                                                     | Notes                      |
+|---------|------------|-------------------------------------------------------------------------------------------|----------------------------|
+|1.	| source     | https://github.com/eigerco/strawberry                                                     | submission tag `v0.0.6-ct` |
+|2.	| release	   | https://github.com/eigerco/strawberry/releases/tag/v0.0.6-ct	                             |                            |
+|3.	| executable | https://github.com/eigerco/strawberry/releases/download/v0.0.6-ct/strawberry-linux-x86_64 |                            |
 
 
 ## Additional Information
