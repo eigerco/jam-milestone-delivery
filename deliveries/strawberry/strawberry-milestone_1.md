@@ -20,7 +20,7 @@ We declare that:
 - [x] we submitted **a clear Git history and public, credibly timestamped commits**.
 - [x] we used third party libraries for:
   - Bandersnatch, Rust FFI of [https://github.com/davxy/ark-vrf](https://github.com/davxy/ark-vrf)
-  - Ed25519 / crypto [https://golang.org/x/crypto](https://pkg.go.dev/golang.org/x/crypto)
+  - Crypto [https://golang.org/x/crypto](https://pkg.go.dev/golang.org/x/crypto)
   - In memory db [https://github.com/cockroachdb/pebble](https://github.com/cockroachdb/pebble)
   - FFI [https://github.com/ebitengine/purego](https://github.com/ebitengine/purego)
   - Erasure coding, Rust FFI of [https://github.com/AndersTrier/reed-solomon-simd](https://github.com/AndersTrier/reed-solomon-simd)
@@ -30,6 +30,7 @@ We declare that:
   - Logging library [https://github.com/rs/zerolog](https://github.com/rs/zerolog)
   - Testing verifications [https://github.com/stretchr/testify](https://github.com/stretchr/testify)
   - Go concurrency [https://golang.org/x/sync](https://golang.org/x/sync)
+  - SCALE codec [https://github.com/ChainSafe/gossamer/tree/development/pkg/scale](https://github.com/ChainSafe/gossamer/tree/development/pkg/scale)
 - [ ] we provided **Gas, trie/DB, signature-verification, and availability (EC/DB) performance tests** to be run on standard hardware.
   - Not relevant in this milestone
 - [x] we viewed the following **JAM implementation code** before | during our implementation: 
